@@ -1,6 +1,6 @@
 function moreArrays(){
 var num = [];
-for(let i = 0; i <=100; i++)
+for(let i = 2; i <=100; i++)
 {
   if(i % 2 == 0)
   {
