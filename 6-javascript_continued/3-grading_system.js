@@ -22,3 +22,7 @@ else if(my_parameter >= 70)
 {
   console.log(my_parameter + " YOu received an C")
 }
+else if(my_parameter <= 65)
+{
+  console.log(my_parameter + " YOu received an D")
+}
