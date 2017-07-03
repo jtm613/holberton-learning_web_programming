@@ -8,5 +8,14 @@ for (var r = 0; r < 11; r++) {
 }
 function show()
 {
-    document.getElementById("multi_table")
+    document.getElementById("multi_table ").innerHTML ="";
+      document.getElementById("multi_table ").innerHTML += arr[i].joing(" ") + "<br>";
+        document.getElementById("multi_table ").style.display = 'block';
+          document.getElementById("multi_table ").style.visiblity = 'visible'
+
+}
+function hide()
+{
+  document.getElementById("multi_table ").style.visiblity ='hidden'
+    document.getElementById("multi_table ").style.display ="none"
 }
